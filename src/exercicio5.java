@@ -12,8 +12,9 @@ public class exercicio5 {
 
         String senha = entrada.next();
 
-
-        while (senha.equals(nome)) {
+        //equalsIgnoreCase é usado para comprarar 2 Strings porem o ignore vai ignora
+        // a diferença de letra maiuscula ou minusculas
+        while (senha.equalsIgnoreCase(nome)) {
 
             System.out.println("Senha inválida,a senha deve diferente de seu nome ,digite novamente");
             senha = entrada.next();

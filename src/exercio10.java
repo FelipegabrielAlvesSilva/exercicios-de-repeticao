@@ -18,6 +18,8 @@ public class exercio10 {
             a = b;
             b = proximo;
         }
+        ;
+
 
     }
 }
